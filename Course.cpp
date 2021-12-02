@@ -19,6 +19,7 @@ int Course::printClassList() {
 	cout << "Instructor Name: " << courseInstructor.getName() << endl;
 	cout << std::setw(15) << std::left << "Student Name";
 	cout << std::setw(8) << std::right << "GPA" << endl;
+	cout << "-----------------------" << endl;
 	for (int i = 0; i < studentList.size(); i++) {
 		cout << std::setw(15) << std::left << studentList[i].getName();
 		cout << std::setw(8) << std::right << gradeList[i] << endl;
